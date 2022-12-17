@@ -1,0 +1,21 @@
+/* Light mode styles */
+body {
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+.dark-mode body {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode textarea {
+    background-color: black;
+    color: white;
+}
