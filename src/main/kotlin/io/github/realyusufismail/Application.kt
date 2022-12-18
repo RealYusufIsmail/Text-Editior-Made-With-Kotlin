@@ -18,12 +18,12 @@
  */ 
 package io.github.realyusufismail
 
-import io.github.realyusufismail.module.simple
+import io.github.realyusufismail.module.textEditor
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 
 fun main() {
     val port = System.getenv("PORT")?.toInt() ?: 8080
-    embeddedServer(Netty, port, module = Application::simple).start(wait = true)
+    embeddedServer(Netty, port, module = Application::textEditor).start(wait = true)
 }
